@@ -1,0 +1,44 @@
+:root {
+  font-size: 24px;
+  font-family: 'Oswald';
+  --text-primary: #605fd5;
+  --bg-primary: #2bbb98;
+}
+
+body{
+  color: black;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+canvas {
+  display: block;
+}
+
+.navbar {
+  width: 100vw;
+  height: 2rem;
+  position: fixed;
+  background-color: var(--bg-primary);
+}
+
+.navbar-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.nav-link {
+  display: flex;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  align-items: center;
+  height: 2rem;
+  color: var(--text-primary);
+  text-decoration: none;
+}
